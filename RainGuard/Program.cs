@@ -1,7 +1,11 @@
+using RainGuard.Services;
+using RainGuard.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Add controllers and weather service
 builder.Services.AddControllersWithViews();
+builder.Services.AddHttpClient<IWeatherService, WeatherService>();
 
 var app = builder.Build();
 

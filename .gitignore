@@ -363,3 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 /RainGuard/appsettings.json
 appsettings.json
+/RainGuard/appsettings.json
+/RainGuard/appsettings.Development.json

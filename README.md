@@ -12,6 +12,14 @@ RainGuard is an **ASP.NET Core MVC** application that allows users to get real-t
  - **Last searched city is saved locally.**  
 
 ---
+### User Interface Preview
+![Interface](https://github.com/pogorelovolezka/RainGuard/blob/master/RainGuard/wwwroot/images/screenshots/ui-example.png)
+---
+
+---
+### Rain Alert Example
+![Rain Alert](https://github.com/pogorelovolezka/RainGuard/blob/master/RainGuard/wwwroot/images/screenshots/alert-example.png)
+---
 
 ## Technologies Used
 - **Backend:** ASP.NET Core MVC (.NET 9)

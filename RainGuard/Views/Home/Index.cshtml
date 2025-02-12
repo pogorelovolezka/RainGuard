@@ -5,17 +5,13 @@
 <div class="container">
     <h2>Weather Forecast</h2>
 
+    @Html.Partial("_WeatherAlertModal")
+
     <form id="searchForm">
         <label>Enter city:</label>
         <input type="text" id="searchCity" class="form-control" placeholder="Enter city">
         <button type="submit" class="btn btn-primary mt-2">Get Weather</button>
     </form>
-
-    <hr>
-
-    <h3>Set notification city</h3>
-    <input type="text" id="notificationCity" class="form-control" placeholder="Enter city for alerts">
-    <button id="saveCity" class="btn btn-secondary mt-2">Save</button>
 
     <hr>
 

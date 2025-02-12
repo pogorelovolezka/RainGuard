@@ -1,5 +1,5 @@
 ﻿document.addEventListener("DOMContentLoaded", function () {
-    const ALERT_TIME = "02:01";
+    const ALERT_TIME = "08:30";
     const CHECK_INTERVAL = 5 * 60 * 1000;
 
     const searchForm = document.getElementById("searchForm");
